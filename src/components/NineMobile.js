@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, ListGroup, ProgressBar } from 'react-bootstrap';
 
-function UserVerification() {
+function NineMobile() {
   // Sample verification rates (0-100) for demonstration
   const verificationData = [
     {
@@ -27,7 +27,7 @@ function UserVerification() {
   return (
     <Card className="mb-4">
       <Card.Body>
-        <h2>MTN 👋</h2>
+        <h2>9mobile 👋</h2>
         <p>Delivery Ratio</p>
         <ListGroup variant="flush">
           {verificationData.map((item, index) => (
@@ -45,4 +45,4 @@ function UserVerification() {
   );
 }
 
-export default UserVerification;
+export default NineMobile;

@@ -35,7 +35,7 @@ function Sidebar() {
             <MessageCircle className="me-2" /> SMS
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href="/sms/single">
+            <Dropdown.Item href="/single-sms">
               <MessageSquare className="me-2" /> Single SMS
             </Dropdown.Item>
             <Dropdown.Item href="/batch-sms">

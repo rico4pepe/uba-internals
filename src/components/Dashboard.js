@@ -5,8 +5,9 @@ import Sidebar from './Sidebar';
 import Header from './Header';
 import RecentTransactions from './RecentTransactions';
 import UserVerification from './UserVerfications';
-import OurProducts from './OurProducts';
-import BalanceChart from './BalanceChart';
+import Airtel from './Airtel';
+import Globacom from './Globacom';
+import NineMobile from './NineMobile';
 
 
 import UpcomingBills from './UpcomingBills';
@@ -44,16 +45,16 @@ function Dashboard() {
               <UserVerification />
             </Col>
             <Col md={6}>
-              <OurProducts />
+            <Airtel />
             </Col>
           </Row>
           {/* UpcomingBills and Wallet side by side */}
           <Row className="mt-4"> 
             <Col md={6}> {/* Stretch UpcomingBills to half of the available width */}
-              <UpcomingBills />
+            <Globacom />
             </Col>
             <Col md={6}> {/* Stretch Wallet to half of the available width */}
-              <Wallet />
+            <NineMobile />
             </Col>
           </Row>
         </Col>
